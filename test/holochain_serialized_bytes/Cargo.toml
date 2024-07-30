@@ -1,6 +1,6 @@
 [package]
 name = "test_holochain_serialized_bytes"
-version = "0.0.55"
+version = "0.0.54"
 authors = ["Holochain Core Dev Team <devcore@holochain.org>"]
 description = "test serialized bytes for holochain"
 keywords = ["holochain", "holo", "messagepack", "json", "serialization"]
@@ -12,7 +12,7 @@ repository = "https://github.com/holochain/holochain-serialization"
 
 [dependencies]
 serde = "1.0.198"
-holochain_serialized_bytes = { version = "=0.0.55", path = "../../crates/holochain_serialized_bytes" }
+holochain_serialized_bytes = { version = "=0.0.54", path = "../../crates/holochain_serialized_bytes" }
 
 [dev-dependencies]
 test-fuzz = "=3.0.4"
